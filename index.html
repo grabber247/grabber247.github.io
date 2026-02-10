@@ -219,6 +219,8 @@
             display: inline-flex;
             align-items: center;
             gap: 0.5rem;
+            position: relative;
+            z-index: 10;
         }
 
         .btn-primary {
@@ -460,6 +462,8 @@
             width: 200%;
             height: 200%;
             background: radial-gradient(circle, rgba(139, 92, 246, 0.1), transparent);
+            pointer-events: none;
+            z-index: 1;
         }
 
         .cta-card h2 {
